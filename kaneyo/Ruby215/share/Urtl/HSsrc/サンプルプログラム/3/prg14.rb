@@ -1,0 +1,2 @@
+﻿a = rand
+puts a
