@@ -1,2 +1,0 @@
-﻿a = rand
-puts a

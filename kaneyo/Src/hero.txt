@@ -1,0 +1,12 @@
+﻿ class Hero
+  definitialize(x,y)
+   @image=Image.load("image/海賊")
+   @image.set_color_key(Color::WHITE)
+   @x = x
+   @y = y
+  end
+
+  def draw
+   Window.draw(@x,@y,@image)
+  end
+ end
